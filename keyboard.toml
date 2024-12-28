@@ -7,23 +7,23 @@ product_id = 0x0001
 manufacturer = "GEIST"
 chip = "rp2040"
 
-# [layout]
-# rows = 8
-# cols = 6
-# layers = 1
-# keymap = [
-#     [
-#         ["A", "B", "C", "D", "E", "F"],
-#         ["G", "H", "I", "J", "K", "L"],
-#         ["M", "N", "O", "P", "Q", "R"],
-#         ["S", "T", "U", "V", "W", "X"],
+[layout]
+rows = 8
+cols = 6
+layers = 1
+keymap = [
+    [
+        ["A", "B", "C", "D", "E", "F"],
+        ["G", "H", "I", "J", "K", "L"],
+        ["M", "N", "O", "P", "Q", "R"],
+        ["S", "T", "U", "V", "W", "X"],
 
-#         ["a", "b", "c", "d", "e", "f"],
-#         ["g", "h", "i", "j", "k", "l"],
-#         ["m", "n", "o", "p", "q", "r"],
-#         ["s", "t", "u", "v", "w", "x"],
-#     ],
-# ]
+        ["a", "b", "c", "d", "e", "f"],
+        ["g", "h", "i", "j", "k", "l"],
+        ["m", "n", "o", "p", "q", "r"],
+        ["s", "t", "u", "v", "w", "x"],
+    ],
+]
 
 # [split]
 # connection = "serial"
