@@ -12,7 +12,7 @@ input_pins = ["PIN_8", "PIN_9", "PIN_10", "PIN_11"]
 output_pins = ["PIN_18", "PIN_17", "PIN_16", "PIN_15", "PIN_14", "PIN_13"]
 
 [layout]
-rows = 8
+rows = 4
 cols = 6
 layers = 1
 keymap = [
@@ -21,11 +21,6 @@ keymap = [
         ["__", "A", "S", "D", "F", "G"],
         ["__", "Z", "X", "C", "V", "B"],
         ["__", "Escape", "LGui", "Tab", "Space", "__"],
-
-        ["Y", "U", "I", "O", "P", "__"],
-        ["H", "J", "K", "L", "Semicolon", "__"],
-        ["N", "M", "Comma", "Dot", "Backslash", "__"],
-        ["__", "Space", "Enter", "Backspace", "Delete", "__"],
     ],
 ]
 
